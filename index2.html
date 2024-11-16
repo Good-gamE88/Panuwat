@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PANUWAT</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+
+    <!-- navbar start -->
+    <header class="header">
+
+        <a href="#home" class="logo">
+            Good<span>Game</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+       <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#educational">Educational</a>
+        <a href="#contact">Contact</a>
+       </nav>
+
+       <button class="gradient-btn" id="play-game-btn">Play Game</button>
+
+    </header>
+    <!-- navbar stop -->
+
+    <!-- Home start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi I'm
+          <span>Panuwat</span>
+        </h1>
+
+        <h2>
+          ID: <span>6501075520112</span>
+        </h2>
+
+        <p>
+          I'm a student in IoT class Instrumentation & Automation Engineering major King Mongkut's University of Technology North Bangkok. I'm not very good at coding, but I like working with design. I try to study both in class and find new knowledge frome online media in order to produce good work and apply the knowledge I have learned.
+        </p>
+      </div>
+
+      <div class="home-img">
+        <img src="picture\IMG_0723.JPG" alt="">
+      </div>
+     </section>
+    <!-- Home stop -->
+
+    <!-- Skills start -->
+    <section class="skills" id="skills">
+
+      <h3 class="heading">Skills</h3>
+
+      <div class="skills-container">
+        <div class="skills-box">
+          <div class="skills-info">
+            <i class="bx bxl-figma"></i>
+            <h4>UI/UX Design</h4>
+            <p>
+              My expertise in UX/UI design is rooted in a deep understanding of user behavior and needs. I recognize that each user may have unique experiences and expectations, so I focus on observing and analyzing real user behaviors to inform my design decisions. I am skilled at communicating my ideas and vision clearly through visuals or prototypes, ensuring that both users and teams can easily understand them. Additionally
+          </div>
+        </div>
+
+        <div class="skills-box">
+          <div class="skills-info">
+            <i class='bx bx-chip'></i>
+            <h4>Programmable Logic Controll</h4>
+            <p>
+              My expertise in PLC (Programmable Logic Controller) comes from a deep understanding of programming and controlling automated systems. I have thorough knowledge of how PLCs operate and how they integrate with various devices in the system, such as sensors, motors, and process control systems. I am proficient in writing control programs using Ladder Diagrams, Function Block Diagrams, or Structured Text effectively.
+            </p>
+          </div>
+        </div>
+        
+        <div class="skills-box">
+          <div class="skills-info">
+            <i class='bx bx-bolt-circle'></i>
+            <h4>Electrical Design</h4>
+            <p>
+              My expertise in electrical design comes from a deep understanding of electrical principles and relevant safety standards. I am capable of designing and planning electrical systems for buildings, factories, and industrial setups with efficiency. This includes calculating electrical loads, selecting appropriate electrical equipment, and designing control circuits that meet specifications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills stop -->
+
+    <!-- Educational start -->
+    <section class="educational" id="educational">
+    <h3 class="heading">Educational</h3>
+
+      <div class="educational-box">
+
+        <div class="educational-card">
+          <img src="picture\3.png" alt="">
+          <h4>Technical College</h4>
+          <p>Aytthaya Technical College</p>
+          <div class="btn">More
+            <div class="dropdown">
+              <p>Vocational Certificate</p>
+              <p>High Vocational Certificate</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="educational-card">
+          <img src="picture\4.png" alt="">
+          <h4>Bachelor Degrees</h4>
+          <p>King Mongkut's University of Technology North Bangkok</p>
+          <div class="btn">More
+            <div class="dropdown">
+              <p>NULL</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Educational Stop -->
+
+    <!-- Contact start -->
+    <section class="contact" id="contact">
+      <h3 class="heading">Contact</h3>
+      
+      <div class="contact-info">
+        <p>If you have any questions or want to get in touch, feel free to contact me via social media or send an email:</p>
+        <p><b>Email:</b> s6501075520112@email.kmutnb.ac.th</p>
+        <p><b>Phone:</b> 06-1092-8488</p>
+      </div>
+    
+      <div class="social-icons">
+        <a href="https://github.com/Good-gamE88/Good-gamE88.github.io" target="_blank">
+          <i class="bx bxl-github"></i>
+        </a>
+    
+        <a href="https://www.instagram.com/gxxd._.game/" target="_blank">
+          <i class='bx bxl-instagram-alt'></i>
+        </a>
+    
+        <a href="https://www.facebook.com/panuwat.pimjanna/" target="_blank">
+          <i class='bx bxl-facebook-circle'></i>
+        </a>
+      </div>
+    </section>
+    <!-- Contact stop -->
+
+    <!-- Get start -->
+    <section class="get" id="get">
+      <h3 class="heading">Get data</h3>
+      <div class="get-box">
+
+        <div class="get-card">
+          <h5 id="Temperature">Temperature</h5>
+          <h5 id="Humidity">Humidity</h5>
+          <h5 id="Timestamp">Timestamp</h5>
+          <h5 id="Luxsensor">Luxsensor</h5>
+          <h5 id="Motion">Motion</h5>
+        </div>
+    </section>
+    <!-- Get stop -->
+    
+    <!-- Post start -->
+    <form class="post-section" id = "infomation-game">
+                
+      <label for="name">Name:</label>
+      <input id="name" placeholder="Enter Student Name" type="text">
+      <label for="id">ID:</label>
+      <input id="id" placeholder="Enter Student ID" type="text" >
+      <button type="submit" id= "submit">Submit</button>
+  </form>
+    <!-- Post stop -->
+
+    <script defer src="styles.js"></script>
+
+
+    
+  </body>
+</html>
